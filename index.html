@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+      integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+      integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="w-full h-screen flex">
+      <div class="w-[70px] h-screen bg-blue-800">
+        <span
+          class="w-full flex text-white font-bold justify-center text-[20px] items-center flex h-[20%] border-b-2 border-orange-500"
+        >
+          <i class="fa-sharp fa-solid fa-bars"></i
+        ></span>
+        <span
+          class="w-full h-[80%] text-white flex flex-col justify-evenly items-center"
+        >
+          <i class="fa-sharp fa-solid fa-house"></i>
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+          <i class="fa-sharp fa-solid fa-user"></i>
+          <i class="fa-sharp fa-solid fa-circle-user"></i>
+          <i class="fa-sharp fa-solid fa-print"></i>
+          <i class="fa-sharp fa-solid fa-hotel"></i>
+          <i class="fa-sharp fa-solid fa-book"></i>
+          <i class="fa-sharp fa-solid fa-van-shuttle"></i>
+          <i class="fa-sharp fa-solid fa-circle-info"></i>
+        </span>
+      </div>
+      <div class="w-full h-screen items-center bg-blue-50 flex flex-col">
+        <span
+          class="font-bold w-[80%] h-[20%] text-3xl flex items-center justify-between text-black"
+        >
+          <i class="fa-sharp fa-solid fa-bell"></i>
+
+          <span class="font-bold text-3xl text-button">Dashboard </span>
+          <button
+            class="w-[100px] h-[40px] text-black text-[20px] border-2 rounded"
+          >
+            Logout
+          </button>
+        </span>
+        <!-- this div is contains 2 divs -->
+        <div class="w-full h-[50%] flex bg-blue-50">
+          <!-- first div -->
+          <div
+            class="w-[40%] justify-evenly items-center bg-blue-50 flex flex-col"
+          >
+            <span
+              class="w-[80%] h-[90%] bg-white flex flex-col justify-evenly rounded"
+            >
+              <span
+                class="h-[30%] w-full flex justify-evenly items-center text-2xl text-black"
+              >
+                <i
+                  class="w-[100px] h-[60px] bg-green-500 text-white rounded pt-4 pl-8 fa-sharp fa-solid fa-chalkboard-user"
+                ></i>
+                <span class="w-[1%] h-[80%] rounded bg-green-500"></span>
+                Institute Name
+              </span>
+
+              <span
+                class="w-full h-[70%] ml-[33px] flex flex-col justify-evenly"
+              >
+                <!-- address span -->
+                <span>
+                  <span class="text-yellow-500">Address-</span
+                  ><span class="text-red-700 font-bold">
+                    inst001@gmail.com</span
+                  >
+                </span>
+
+                <!-- email span -->
+                <span>
+                  <span class="text-yellow-500">Email-</span
+                  ><span class="text-red-700 font-bold">
+                    inst001@gmail.com</span
+                  >
+                </span>
+
+                <!-- lastlogin span -->
+                <span>
+                  <span class="text-yellow-500">Last-Login-</span
+                  ><span class="text-red-700 font-bold">
+                    3/31/2023 , 1:21:48 PM</span
+                  >
+                </span>
+                <!-- academic year -->
+                <span>
+                  <span class="text-yellow-500">Academic Year-</span
+                  ><span class="text-red-700 font-bold">
+                    inst001@gmail.com</span
+                  >
+                </span>
+              </span>
+            </span>
+          </div>
+
+          <div class="w-[60%] flex flex-col items-center">
+            <span
+              class="w-[90%] h-[50%] bg-blue-50 flex items-center justify-evenly rounded"
+            >
+              <span
+                class="h-[80%] w-[45%] bg-white flex text-center justify-evenly items-center text-2xl rounded text-black"
+              >
+                <i
+                  class="w-[80px] h-[60px] bg-blue-500 text-white rounded pt-4 fa-sharp fa-solid fa-graduation-cap"
+                ></i>
+
+                <span class="w-[1%] h-[80%] rounded bg-blue-500"></span>
+                Students <br />
+                10
+              </span>
+
+              <span
+                class="h-[80%] w-[45%] bg-white flex text-center justify-evenly items-center text-2xl rounded text-black"
+              >
+                <i
+                  class="w-[80px] h-[60px] bg-blue-800 text-white rounded pt-4 fa-sharp fa-solid fa-user-group"
+                ></i>
+
+                <span class="w-[1%] h-[80%] rounded bg-blue-800"></span>
+                Staff <br />
+                4
+              </span>
+            </span>
+
+            <span
+              class="w-[90%] h-[50%] bg-blue-50 flex items-center justify-evenly rounded"
+            >
+              <span
+                class="h-[80%] w-[45%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+              >
+                <i
+                  class="w-[80px] h-[60px] bg-orange-500 text-white rounded pt-4 text-2xl fa-sharp fa-solid fa-house"
+                ></i>
+                <span class="w-[1%] h-[80%] rounded bg-orange-500"></span>
+                Departments <br />
+                3
+              </span>
+
+              <span
+                class="h-[80%] w-[45%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+              >
+                <i
+                  class="w-[80px] h-[60px] bg-purple-500 text-2xl text-white rounded pt-4 fa-sharp fa-solid fa-car-side"
+                ></i>
+                <span class="w-[1%] h-[80%] rounded bg-purple-500"></span>
+                Transport <br />
+                2
+              </span>
+            </span>
+          </div>
+        </div>
+        <div
+          class="bg-blue-50 w-full h-[30%] flex justify-evenly items-center rounded"
+        >
+          <span
+            class="h-[70%] w-[20%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+          >
+            <i
+              class="w-[80px] h-[60px] bg-blue-500 text-2xl text-white rounded pt-4 fa-sharp fa-solid fa-hotel"
+            ></i>
+            <span class="w-[1%] h-[80%] rounded bg-blue-500"></span>
+            Hotel <br />
+            5
+          </span>
+
+          <span
+            class="h-[70%] w-[20%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+          >
+            <i
+              class="w-[80px] h-[60px] bg-purple-500 text-2xl text-white rounded pt-4 fa-sharp fa-solid fa-print"
+            ></i>
+            <span class="w-[1%] h-[80%] rounded bg-purple-500"></span>
+            Library <br />
+            2
+          </span>
+
+          <span
+            class="h-[70%] w-[20%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+          >
+            <i
+              class="w-[80px] h-[60px] bg-blue-400 text-2xl text-white rounded pt-4 fa-sharp fa-solid fa-lightbulb"
+            ></i>
+            <span class="w-[1%] h-[80%] rounded bg-blue-400"></span>
+            Events <br />
+            2
+          </span>
+
+          <span
+            class="h-[70%] w-[20%] bg-white flex text-center justify-evenly items-center text-xl rounded text-black"
+          >
+            <i
+              class="w-[80px] h-[60px] bg-blue-800 text-2xl text-white rounded pt-4 fa-sharp fa-solid fa-user"
+            ></i>
+            <span class="w-[1%] h-[80%] rounded bg-blue-800"></span>
+            Access<br />
+            -
+          </span>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
